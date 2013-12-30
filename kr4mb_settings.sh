@@ -48,8 +48,6 @@ $cli set parameter.acceleration_of_scroll 2
 /bin/echo -n .
 $cli set remap.vimnormal_toggle_commandR 1
 /bin/echo -n .
-$cli set remap.space2controlL_space 1
-/bin/echo -n .
 $cli set parameter.acceleration_of_pointer 2
 /bin/echo -n .
 $cli set repeat.keyoverlaidmodifier_initial_wait 300

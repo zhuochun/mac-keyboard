@@ -2,22 +2,21 @@
 
 Add custom key mappings and shortcuts to do things faster and easier in Mac.
 
-Please read [A Modern Space Cadet / Steve Losh](http://stevelosh.com/blog/2012/10/a-modern-space-cadet/#controlescape) for enlightenment.
-
-## Tools
-
-- [KeyRemap4MacBook](https://pqrs.org/macosx/keyremap4macbook/index.html.en)
-- [BetterTouchTool](http://www.boastr.de/)
+Read [A Modern Space Cadet](http://stevelosh.com/blog/2012/10/a-modern-space-cadet/#controlescape) from Steve Losh for enlightenment.
 
 ## Mappings
 
-![kr4mb 1](screenshots/KR4MB_1.png)
-![kr4mb 2](screenshots/KR4MB_2.png)
+- `Fn` to `Hyper` when in combination with a letter/number/symbol.
+- `Option_R` to `Fn`.
+- `Shift_R` to `ESC` when typed only.
+- `Option + h/j/k/l` to left/down/up/right.
 
-### Ubiquitous Vim Bindings for Normal Mode
+## Ubiquitous Vim Bindings for Normal Mode
 
-Type `Command_R` to toggle Vim bindings for normal model.
-Alternatively, type `ESC` to turn off normal model.
+- Type `Command_R` to toggle Vim bindings for normal mode.
+- Alternatively, type `ESC` to turn off normal mode.
+
+Mappings can be used in normal mode:
 
 ![kr4mb vim](screenshots/KR4MB_Vim.png)
 
@@ -25,15 +24,37 @@ Alternatively, type `ESC` to turn off normal model.
 
 ### Trackpad
 
-Press `Fn`, single tap different corner of trackpad to move windows around.
+Press `Fn`, and single tap different area of trackpad to move windows around.
 
-![btt trackpad](screenshots/BTT_Trackpad.png)
+![btt trackpad](screenshots/BTT_Trackpad_1.png)
 
-### Keyboard
+### Tab Mode
 
-Press `Fn + app' char` to open the app or switch to it.
+Press `Tab + h/l` to switch app like `Command + Shift + Tab` or `Command + Tab`.
 
-![btt keyboard](screenshots/BTT_Keyboard.png)
+### In Finder
+
+- `F2` to rename
+- `Forward Delete` to `Command_L + Delete`
+- `Command + N` to create new folder
+
+### Switch/Open Apps
+
+Press `Fn + letter` to open the app or switch to it.
+
+- `Fn + D`: Show Desktop
+- `Fn + V`: MacVim
+- `Fn + F`: Firefox Aurora
+- `Fn + C`: Chrome
+- `Fn + G`: GitHub
+- `Fn + W`: Wunderlist
+- `Fn + E`: Calendar
+- `Fn + I`: iTerm
+
+## Tools (free)
+
+- [KeyRemap4MacBook](https://pqrs.org/macosx/keyremap4macbook/index.html.en)
+- [BetterTouchTool](http://www.boastr.de/)
 
 ## Setup
 
